@@ -173,7 +173,7 @@ plt.xlabel('Date')
 
 
 
-![png](output_4_1.png)
+![png](/output/output_4_1.png)
 
 
 #### **Errors**
@@ -263,7 +263,7 @@ errors['errorID'].value_counts()
 
 
 
-![png](output_7_1.png)
+![png](/output/output_7_1.png)
 
 
 #### **Maintenance**
@@ -351,7 +351,7 @@ maint['comp'].value_counts()
 
 
 
-![png](output_10_1.png)
+![png](/output/output_10_1.png)
 
 
 #### **Machines**
@@ -440,7 +440,7 @@ plt.legend()
 
 
 
-![png](output_13_1.png)
+![png](/output/output_13_1.png)
 
 
 #### **Failures**
@@ -530,7 +530,7 @@ failures['failure'].value_counts()
 
 
 
-![png](output_16_1.png)
+![png](/output/output_16_1.png)
 
 
 ## Feature Engineering
@@ -4665,7 +4665,7 @@ plt.ylabel('Importance')
 
 
 
-![png](output_47_1.png)
+![png](/output/output_47_1.png)
 
 
 # Evaluation
@@ -4688,7 +4688,7 @@ plt.ylabel('Count')
 
 
 
-![png](output_49_1.png)
+![png](/output/output_49_1.png)
 
 
 Also, due to the class imbalance problem, it is important to look at evaluation metrics other than accuracy alone and compare those metrics to the baseline metrics which are computed when random chance is used to make predictions rather than a machine learning model. The comparison will bring out the value and benefits of using a machine learning model better.
